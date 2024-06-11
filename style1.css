@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+#macbook-2 {
+    margin: auto;
+    width: 1152px;
+    height: 700px;
+    border: 2px solid #086db8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.macbook-1 {
+    width: 582px;
+    height: 645px;
+    top: 27px;
+    left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0px 37px;
+}
+
+.logo img {
+    width: 59px;
+    height: 63px;
+    margin-top: 27px;
+    margin-left: 528px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.logo h2 {
+    width: 108px;
+    height: 40px;
+    top: 90px;
+    left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.99px;
+    text-align: left;
+    color: #086db8;
+    
+}
+
+.form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form form .firstname label {
+    width: 91px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+}
+
+.form form .firstname input {
+    width: 277px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.form form .lastname label {
+    width: 91px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+    margin-left: 15px;
+}
+
+.form form .lastname input {
+    width: 277px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.form form .email {
+    margin-top: 10px;
+}
+
+.form form .email label {
+    width: 49px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+}
+
+.form form .email input {
+    width: 277px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.form form .gender {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form form .gender-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form .gender label {
+    width: 62px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+}
+
+.form form .gender input {
+  width: 269px;
+  height: 24px;
+}
+
+.form form .gender input[type="radio"] {
+    margin-top: 14px;
+    width: 20px;
+    height: 20px;
+}
+
+.form form .gender label {
+    width: 41px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+}
+
+.form form .password {
+    margin-top: 10px;
+}
+
+.form form .password label {
+    width: 80px;
+    height: 21px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.form form .password input {
+    width: 277px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.form form .confirm-password {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.form form .c-password label {
+    width: 155px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+}
+
+.form form .confirm-password input {
+    width: 277px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.form form .education-level {
+    margin-top: 10px;
+}
+
+.form form .education-level label {
+    width: 148px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+}
+
+.form form .education-level select {
+    width: 277px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.form form .experience {
+    margin-top: 10px;
+    margin-left: 21px;
+}
+
+.form form .experience label {
+    width: 141px;
+    height: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.99px;
+}
+
+.form form .experience select {
+    width: 284px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.form form .message {
+    margin-top: 10px;
+}
+
+.form form .message label {
+    width: 141px;
+    height: 24px;
+    margin-bottom: 80px;
+    left: 46px;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.99px;
+    
+
+}
+
+.form form .message input {
+    width: 575px;
+    height: 59px;
+    margin-top: 5px;
+    left: 44px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px solid black;
+    
+}
+
+.button button {
+    width: 222px;
+    height: 40px;
+    margin-top: 28px;
+    margin-left: 359px;
+    border-radius: 10px 0px 10px 0px;
+    border: 1px 0px 0px 0px;
+    background: #3E53C3;
+    border: 1px;
+    border-color: #3E53C3;
+    color: #ffffff;
+}
+
+.image{
+    background: url(./images/Kimg1.png) no-repeat center center/cover;
+    width: 487px;
+    height: 700px;
+    position: relative;
+    color: #ffffff;
+}
+
+.image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+}
+
+
+.image h1{
+    width: 153px;
+    height: 40px;
+    margin-top: 59px;
+    margin-left: 280px;
+    color: white;
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.99px;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+
+.image p{
+    width: 242px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 468px;
+    margin-left: 105px;
+    z-index: 1;
+    position: relative;
+}
